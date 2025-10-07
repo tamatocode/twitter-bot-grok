@@ -1,0 +1,5 @@
+venv/
+.env
+state/last_seen_id.txt
+logs/
+__pycache__/

@@ -1,0 +1,16 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TWITTER_API_KEY = os.getenv("TWITTER_API_KEY")
+TWITTER_API_KEY_SECRET = os.getenv("TWITTER_API_KEY_SECRET")
+TWITTER_ACCESS_TOKEN = os.getenv("TWITTER_ACCESS_TOKEN")
+TWITTER_ACCESS_TOKEN_SECRET = os.getenv("TWITTER_ACCESS_TOKEN_SECRET")
+TWITTER_BEARER_TOKEN = os.getenv("TWITTER_BEARER_TOKEN")
+
+GROK_API_KEY = os.getenv("GROK_API_KEY")
+
+BOT_USER_HANDLE = os.getenv("BOT_USER_HANDLE", "RecurXPay").strip()
+REPLY_MIN_DELAY_SEC = int(os.getenv("REPLY_MIN_DELAY_SEC", "5"))
+REPLY_MAX_DELAY_SEC = int(os.getenv("REPLY_MAX_DELAY_SEC", "10"))

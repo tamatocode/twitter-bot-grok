@@ -1,0 +1,7 @@
+google-generativeai
+selenium
+webdriver-manager
+python-dotenv
+requests
+tweepy
+tenacity
